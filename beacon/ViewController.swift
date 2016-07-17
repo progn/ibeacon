@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     let locationManager = CLLocationManager()
     
     let kBeaconId = "estimote"
-    let kBeaconUUID = NSUUID(UUIDString:"B9407F30-F5F8-466E-AFF9-25556B57FE6D")!
+    let kBeaconUUID = NSUUID(UUIDString:"B9407F30-F5F8-466E-AFF9-25556B57FE6D")!  // estimote beacon UUID
 
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
